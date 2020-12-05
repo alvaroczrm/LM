@@ -31,8 +31,8 @@
           <li><a href="a.html">Listas</a></li>
           <li><a href="b.html">Tabla</a></li>
 		  <li class="selected"><a href="c.html">Cuestionario</a></li>
-		 <!-- <li><a href="d.html">D</a></li>
-		  <li><a href="e.html">E</a></li>
+		  <li><a href="T3index.html">Tema3</a></li>
+		  <!--<li><a href="e.html">E</a></li>
 		  <li><a href="f.html">F</a></li>
 		  <li><a href="g.html">G</a></li> -->
 		  
@@ -45,11 +45,12 @@
       
 	  <!-- contenido de la pagina -->
         <h1><i>Cuestionario e imagen</i></h1> 
-        <h2><span class="logo_colour">Uso de <t>img e input</t></span></h2>	
+        <h2><span class="logo_colour">Uso de <t>img, input, iframe y video</t></span></h2>	
         <p></p>
         <h2></h2>
 	<p></p>
   <!-- cuestionario -->
+  <form action="http://foorm.com" method="get"> <!-- El método GET es  utilizado por el navegador para pedir al servidor que se envíe de vuelta un recurso dado -->
   <div class="pregresp">
   <div class="pregunta">1. ¿Crees que HTML es un lenguaje de programación?<br />
   </div>
@@ -58,9 +59,25 @@
     <input type="radio" name="preg1" value="2" /> No<br />
     <input type="radio" name="preg1" value="3" /> Ns/Nc<br />
   </div>
-  
+  </form>
+  <div></div>
+    
+
 </div>
   <br />
+    <div> <!-- Video por link -->
+	  	<iframe width="820" height="520" id="center" src="https://www.youtube.com/embed/C9PYzGyIfF8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  </div>
+	  <div>
+	  	<!-- video local -->
+	  	<video width="820" height="520" poster="star.png" autoplay="autoplay" loop="loop" controls="controls" tabindex="0">
+	  		  <source src="video/niggolaitesla.webm" type='video/webm; codecs="vp8, vorbis"'  />
+
+	  	</video>
+	  </div>
+	 
+
+    </div>
     <!-- implementación de imagen desde archivo -->
   <img class="imagen" src='imagenes/csshtml.png' alt='A - Imagen 1' /><br /><br />
  <!-- <p></p> <br />
