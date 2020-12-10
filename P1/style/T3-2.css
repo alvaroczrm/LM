@@ -36,7 +36,7 @@ ul li.active a{
 	color: #000;
 }
 
-.logo img{
+#logo img{
 	float: left;
 	width: 150px;
 	height: auto;;
@@ -82,4 +82,8 @@ ul li.active a{
 .btn:hover{
 	background-color: #fff;
 	color: #000;
+}
+
+span.sombra{
+	  box-shadow: 5px 10px;
 }

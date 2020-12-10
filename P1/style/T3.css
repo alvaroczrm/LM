@@ -8,8 +8,20 @@ header{
 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(imagenes/T3BG.jpg);
 	height: 100vh;
 	background-size: cover;
-	background-position: center;
+
 }
+/*.fixed{
+		background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(imagenes/T3BG.jpg);
+		background-attachment: fixed;
+		height: 100vh;
+		background-size: cover;
+}
+.section-2{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(imagenes/T3BG.jpg);
+		background-attachment: fixed;
+		height: 200vh;
+		background-size: cover;
+}*/
 ul{
 	float: right;
 	list-style-type: none;
@@ -37,7 +49,7 @@ ul li.active a{
 	color: #000;
 }
 
-.logo img{
+#logo img{
 	float: left;
 	width: 150px;
 	height: auto;;
